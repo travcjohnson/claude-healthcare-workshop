@@ -100,6 +100,7 @@ Fill every bracket with YOUR real answers — this is your business content, not
 
 PRACTICE VOICE GUIDE
 Practice name: [YOURS]. We serve: [your patient population]. Our tone is: [e.g., warm, direct, science-grounded, never alarmist]. We always: [e.g., explain the "why", offer a next step, invite questions]. We never: [e.g., use fear language, promise cures, use jargon without translating it]. Sign-off style: [e.g., "In health, Dr. …"].
+Our website: [URL — optional]. For future branding and design tasks, refer to this site as our style guide (colors, fonts, imagery, tone).
 
 Tip from the room: if any clinic could say your "We never" line, it isn't doing work. Add two things only YOUR practice would say.
 
@@ -172,6 +173,8 @@ Test question to give them, verbatim:
 ## Step 2 · Fill in the voice guide
 
 Show them the template from the Practice Voice Guide section of this document and collect their real answers bracket by bracket (practice name, who they serve, tone, we-always, we-never, sign-off). Push on vague answers: if any clinic could say it, it isn't doing work.
+
+Also ask for their practice website address. If they have one, append this line to their voice guide: "Our website: [URL]. For future branding and design tasks, refer to this site as our style guide (colors, fonts, imagery, tone)." One small line now means every later design and branding task starts brand-aligned. If they don't have a website, skip it — no problem.
 
 ## Step 3 · Build the Project and install the voice
 
