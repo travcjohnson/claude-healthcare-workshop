@@ -177,9 +177,9 @@ Show them the template from the Practice Voice Guide section of this document an
 
 If they don't have a Project yet (they've been pasting the kit link into plain chats), guide them field by field through the create dialog, then the project page:
 
-CREATE DIALOG (hover the left sidebar → Projects → create a new project):
+CREATE POPUP (hover the left sidebar → Projects → click "+ Project"; a popup appears with these fields):
 1. "Name your project" → type: My Practice HQ
-2. "What are you trying to achieve?" → type a one-line goal, e.g.: Run my practice's front-office busywork in my voice — handouts, emails, posts, and drafts I review before use.
+2. "What are you trying to achieve?" → type this goal: A place to create copy in our practice's voice. Teach the field in one line: the goal tells Claude (and anyone on your team) what this project is FOR, so every chat inside it starts pointed at that purpose.
 3. Visibility (if shown) → choose Private.
 4. Create the project.
 
