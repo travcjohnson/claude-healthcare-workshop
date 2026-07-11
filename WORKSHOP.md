@@ -154,7 +154,7 @@ Then say: "Phase 1 complete — open a NEW chat, paste the kit link again, and t
 
 - Nothing happened after pasting → they pasted but didn't send; press Enter or click the send arrow at the right end of the message box.
 - Output came out as wall-of-paragraphs → the FORMAT section didn't make it into the paste; re-copy the whole block and re-run — show them the FORMAT line did the fixing.
-- "You've reached your usage limit" message → pair up as navigator with a neighbor; the account recovers.
+- "You've reached your usage limit" message → switch the model picker (click the model name in the message box) to Sonnet and retry; or pair up as navigator with a neighbor — the account recovers.
 - They paste real patient data → stop, rule 1, redo with Linda.
 
 ---
@@ -321,7 +321,11 @@ A Skill is a saved way of doing one task, written down once so Claude does it yo
 
 Have them check Settings → Capabilities → "Code execution and file creation" is ON (Phase 3 Path B users already did this). Without it, skills silently never fire.
 
-## Step 3 · The base task — THEY apply the built-in skills
+## Step 3 · Pick the right brain for the job — preemptively (30 seconds)
+
+Teaching moment: Claude is several models, and the picker is right in the message box — click the model name to see the menu. The rule of thumb: the biggest model (Fable, or Opus) for deep multi-step work and polished documents; Sonnet for fast everyday drafts, and it uses less of the usage limit. The key habit is choosing PREEMPTIVELY — pick the model for the job before the heavy work starts, don't wait for a usage warning to think about it. Today that means: have them switch to Sonnet NOW for this phase's file tasks, so their usage limit is protected for Cowork in Phase 5 (Cowork consumes the most). At the office, same thinking in reverse: reach for the bigger model up front when the job is deep or the document must be polished. Optional mini-experiment for the curious: run the same prompt on two models and compare — the model is the third variable in the input → output equation, after the prompt and the project.
+
+## Step 4 · The base task — THEY apply the built-in skills
 
 Do not run this yourself. Give them the prompt below in ONE copy box, with the full Block A protocol from the Linda Alvarez Packet appended at the end, and have them paste and send it as their next message. Produce the files only when they do.
 
@@ -329,15 +333,15 @@ Do not run this yourself. Give them the prompt below in ONE copy box, with the f
 
 Warn them files take longer than chat replies. Have them DOWNLOAD and OPEN both — an open .docx and .pdf on their machine is the checkpoint. Read before you'd ever print: Claude drafts, humans decide. Name what just happened: built-in skills fired automatically to make those files — they never had to ask for a skill by name.
 
-## Step 4 · Sneak peek — where skills live
+## Step 5 · Sneak peek — where skills live
 
 A 30-second tour, worth it: click "Customize" in the left sidebar, then "Skills". This is where skills live — they can see the built-in document skills listed there, toggle skills individually, and this is where their OWN skills will appear. Plant the idea: anything the practice does the same way every time (handout format, email style, SOP layout) can become a skill on this page. That is the power: write it down once, Claude does it your way every time, in any chat.
 
-## Step 5 · Extension · a workflow in one request (optional)
+## Step 6 · Extension · a workflow in one request (optional)
 
 One request, three jobs, in order: (1) a 4-week social media calendar, 3 posts/week, mixing patient education, practice updates, seasonal wellness — no patient stories, real or fictional; (2) full text of week 1's three posts in their voice; (3) the whole calendar as a formatted Excel file, one row per post (date, platform, topic, full text, status). Name the lesson: that chain is a workflow — in Phase 5 they hand a brief like this to Cowork and supervise instead of typing.
 
-## Step 6 · Extension · make your OWN skill (power users, optional)
+## Step 7 · Extension · make your OWN skill (power users, optional)
 
 The pattern: ask Claude to build the skill, then upload it where skills live.
 1. In this chat (file creation on), have them send this ask, with their voice guide pasted in: "Use your skill-creator to build me a custom skill called 'practice-voice' that makes every patient-facing draft (handout, email, social post, website text) follow the practice voice guide below. Write the skill description so Claude knows exactly when to invoke it. Ask me any questions you need, then give me the finished skill as a ZIP file I can upload, with the skill folder at the ZIP's root." (Give it as ONE copy box with their voice guide included.)
@@ -356,11 +360,13 @@ A real .docx and .pdf downloaded and open.
 - Claude produces real finished files — Word, PDF, Excel, PowerPoint — not just text to copy.
 - A workflow = steps chained into ONE request. There is no "Workflows" button in Claude; the chain IS the workflow.
 - Read every file before you'd print or send it: Claude drafts, humans decide.
+- Pick your model PREEMPTIVELY, before the heavy work: biggest model for deep, polished jobs; Sonnet for fast drafts and to save your usage limit for what matters (like Cowork).
 
 Then: "Phase 4 complete — the last phase runs in the Claude DESKTOP app. Open Cowork there, connect this kit folder or paste the /phase5 brief from the Prompt Pack, and type /phase5."
 
 ## If it goes wrong
 
+- Usage limit warning → switch the model picker to Sonnet and continue; if it still stops, pair as navigator with a neighbor.
 - Chat text instead of files → the capabilities toggle is off; flip it, then "Now produce the actual files."
 - Only one file arrives → "Now create the second file, the waiting-room PDF." No restart needed.
 - .docx won't open → re-download; opens in Word, Pages, or Google Docs.
