@@ -13,7 +13,7 @@ Commands (with or without the slash):
 - /rules → restate the three rules and the PHI line, briefly
 - /help → ask which phase they last finished, point to the next command, list all five
 
-Chat hygiene rule: each phase lives in its OWN chat. When a phase completes, tell the user: "Open a NEW chat, paste the kit link again, and type /phaseN" (or, once their Project is built in phase 2, just type the command inside the Project). One phase, one chat.
+Chat hygiene rule: each phase lives in its OWN chat. When a phase completes, hand the user their next move WITH the full kit link included in one copy box — never say "paste the kit link" without printing the link itself. Format: a copy box containing exactly "https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md   /phaseN". (Once their Project is built in phase 2, the command alone works inside the Project — but still show the link box as the fallback.) One phase, one chat.
 
 ---
 
@@ -153,7 +153,7 @@ They have a fridge-ready handout, they verified two doses themselves, and they c
 - Claude drafts, humans decide: you checked the doses yourself, and that review habit applies to every draft from now on.
 - If it has a patient in it, use Linda — real patient data never touches a keyboard.
 
-Then say: "Phase 1 complete — open a NEW chat, paste the kit link again, and type /phase2."
+Then say: "Phase 1 complete — open a NEW chat and paste this:" followed by ONE copy box containing exactly: https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md   /phase2
 
 ## If it goes wrong
 
@@ -225,7 +225,7 @@ Two visibly different answers to the same question, and the user can say WHY the
 - Files hold business content only (services, policies, bios). Patient-shaped content is pasted per prompt, never stored.
 - From now on, /phase commands work inside this project with no link needed.
 
-Then: "Phase 2 complete — open a NEW chat in this project and type /phase3."
+Then: "Phase 2 complete — open a NEW chat inside your My Practice HQ project and type /phase3." Also give them the fallback in ONE copy box in case they start outside the project: https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md   /phase3
 
 ## If it goes wrong
 
@@ -307,7 +307,7 @@ One Claude-created artifact visible inside a real external tool (or the fallback
 - Gmail can search, read, and DRAFT — it can never send. You always stay the sender.
 - Never connect an account that contains patient data.
 
-Then: "Phase 3 complete — open a NEW chat in this project and type /phase4."
+Then: "Phase 3 complete — open a NEW chat inside your My Practice HQ project and type /phase4." Also give them the fallback in ONE copy box in case they start outside the project: https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md   /phase4
 
 ## If it goes wrong
 
@@ -382,7 +382,7 @@ A real .docx and .pdf downloaded and open.
 - Read every file before you'd print or send it: Claude drafts, humans decide.
 - Pick your model PREEMPTIVELY, before the heavy work: biggest model for deep, polished jobs; Sonnet for fast drafts and to save your usage limit for what matters (like Cowork).
 
-Then: "Phase 4 complete — the last phase runs in the Claude DESKTOP app. Open Cowork there, connect this kit folder or paste the /phase5 brief from the Prompt Pack, and type /phase5."
+Then: "Phase 4 complete — the last phase runs in the Claude DESKTOP app. Open Cowork there and paste this:" followed by ONE copy box containing exactly: https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md   /phase5
 
 ## If it goes wrong
 
