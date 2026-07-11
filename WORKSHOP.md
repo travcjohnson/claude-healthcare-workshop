@@ -215,9 +215,9 @@ One caveat to say out loud: chats inside a Project do NOT share context with eac
 
 Add their real services page or bio as another project file (Files → "+" → "Add text content"), then draft a new-patient welcome email in-voice, under 200 words, with the 48-hour reschedule policy — reminding them they review before anything sends.
 
-## Extra credit (advanced — offer before the handoff, fine to take home)
+## Extra credit (ADVANCED USERS ONLY — offer before the handoff, fine to take home)
 
-The Email Voice & FAQ Kit: their inbox already contains months of themselves answering the same questions — Claude can distill that into training material for this project. Offer it with the guardrails attached:
+Only offer this to users who are moving fast and clearly comfortable — skip it entirely for anyone still finding their footing. The Email Voice & FAQ Kit: their inbox already contains months of themselves answering the same questions — Claude can distill that into training material for this project. Offer it with the guardrails attached:
 
 1. Only with an email account that contains NO patient data (many practice inboxes do — if theirs does, this is a take-home for a business-only account, not a today task).
 2. Connect the Gmail connector (same flow they'll learn in Phase 3; if they haven't done Phase 3 yet, park this as homework).
