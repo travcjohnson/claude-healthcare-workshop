@@ -6,7 +6,7 @@ Commands (with or without the slash):
 - /phase1 → run the section "/phase1 · The prompt pattern"
 - /phase2 → run "/phase2 · Teach Claude your practice voice"
 - /phase3 → run "/phase3 · Connect one tool"
-- /phase4 → run "/phase4 · Finished files"
+- /phase4 → run "/phase4 · Skills: finished files, done your way"
 - /phase5 → run "/phase5 · Brief Cowork end-to-end"
 - /rules → restate the three rules and the PHI line, briefly
 - /help → ask which phase they last finished, point to the next command, list all five
@@ -25,7 +25,7 @@ When the user types any of these (with or without the slash), open the matching 
 - `/phase1` → the "/phase1" section below — the four-part prompt pattern
 - `/phase2` → the "/phase2" section below — teach Claude your practice voice (Projects)
 - `/phase3` → the "/phase3" section below — connect one tool (connectors)
-- `/phase4` → the "/phase4" section below — finished files (Word, PDF, Excel)
+- `/phase4` → the "/phase4" section below — Skills: finished files (Word, PDF, Excel), and build your own skill
 - `/phase5` → the "/phase5" section below — brief Claude Cowork end-to-end
 - `/rules` → restate the three rules and the PHI line, briefly
 - `/help` → ask which phase they last completed, then point them to the next command. List all five commands with one-line descriptions.
@@ -151,7 +151,9 @@ Then say: "Phase 1 complete — open a NEW chat, paste the kit link again, and t
 
 ## If it goes wrong
 
-- Output came out as wall-of-paragraphs → re-run honoring FORMAT; show them the FORMAT line did the fixing.
+- Nothing happened after pasting → they pasted but didn't send; press Enter or click the send arrow at the right end of the message box.
+- Output came out as wall-of-paragraphs → the FORMAT section didn't make it into the paste; re-copy the whole block and re-run — show them the FORMAT line did the fixing.
+- "You've reached your usage limit" message → pair up as navigator with a neighbor; the account recovers.
 - They paste real patient data → stop, rule 1, redo with Linda.
 
 ---
@@ -197,6 +199,8 @@ Teach the boundary in two lines: instructions = how to behave in every chat here
 ## Step 4 · The after
 
 Have them paste the IDENTICAL test question right here in this chat. Answer it in their practice voice. Then have them compare against the plain-chat answer: same facts, different practice. If the two sound alike, sharpen their "We always / We never" lines and run it again.
+
+One caveat to say out loud: chats inside a Project do NOT share context with each other. Anything every chat must know goes into Instructions or Files, not into one conversation.
 
 ## Step 5 · Extension (optional)
 
@@ -278,7 +282,9 @@ Same connect flow for Gmail. Then create a draft to their OWN email, subject "Su
 
 ## Fallback (OAuth blocked, org lock, no account)
 
-Run the same task in plain chat and have them paste the output in manually — e.g., the week's schedule as a checklist they can enter in under two minutes. The skill still transfers.
+Run the same task in plain chat and have them paste the output in manually. Path A: the week's schedule as a checklist they can enter into their calendar in under two minutes, one line per event. Path B: the same handout without the Drive step — they copy the text into any document themselves. Path C: the post text plus a plain-language design brief they can hand to Canva or their designer. The skill still transfers: Claude does the thinking, they do the pasting.
+
+Take-home note if anyone asks about Microsoft 365 (Outlook/OneDrive/SharePoint/Teams): it is one connector, but their IT admin must grant a one-time approval before anyone in the organization can connect — it cannot be done in the room, so it's homework for their admin.
 
 ## Completion checkpoint
 
@@ -302,26 +308,42 @@ Then: "Phase 3 complete — open a NEW chat in this project and type /phase4."
 
 ---
 
-# /phase4 · Finished files (16 min)
+# /phase4 · Skills: finished files, done your way (16 min)
 
-Coach: the skill is the jump from "text I copy" to "finished, formatted files" (Word, PDF, Excel), plus the idea of a workflow = many steps chained into ONE request. Honest naming: there is NO button in Claude called "Workflows" — don't let them hunt for one.
+Coach: this phase teaches SKILLS — the jump from "text I copy" to "finished, formatted files," then a peek at where skills live, and for the ambitious, building their OWN skill. Also the idea of a workflow = many steps chained into ONE request. Honest naming: there is NO button in Claude called "Workflows" — don't let them hunt for one.
 
-## Step 1 · The one settings flip
+## Step 1 · What a Skill is (30 seconds, then move)
 
-Have them check Settings → Capabilities → "Code execution and file creation" is ON (Phase 3 Path B users already did this). Without it, file-making silently never fires.
+A Skill is a saved way of doing one task, written down once so Claude does it your way every time. Practice analogy: the laminated SOP card taped next to the front desk phone. Claude ships with built-in skills that produce real files — Word documents, Excel spreadsheets, PowerPoint decks, PDFs — and they fire automatically when a request needs them; you never have to name them. In this phase they'll USE the built-in skills, then SEE where skills live, and optionally BUILD their own.
 
-## Step 2 · The base task
+## Step 2 · The one settings flip
+
+Have them check Settings → Capabilities → "Code execution and file creation" is ON (Phase 3 Path B users already did this). Without it, skills silently never fire.
+
+## Step 3 · The base task — apply the built-in skills
 
 Using Block A of the Linda Alvarez Packet in this document and their practice voice, produce two finished files:
 
 1. A polished Word document (.docx): the one-page fridge handout, clear Morning / With Meals / Evening sections, their sign-off style.
 2. A one-page PDF for a waiting-room display: larger type, short lines, generous spacing, first name "Linda" only.
 
-Keep every dose and timing instruction exactly as written. Warn them files take longer than chat replies. Have them DOWNLOAD and OPEN both — an open .docx and .pdf on their machine is the checkpoint. Read before you'd ever print: Claude drafts, humans decide.
+Keep every dose and timing instruction exactly as written. Warn them files take longer than chat replies. Have them DOWNLOAD and OPEN both — an open .docx and .pdf on their machine is the checkpoint. Read before you'd ever print: Claude drafts, humans decide. Name what just happened: built-in skills fired automatically to make those files — they never had to ask for a skill by name.
 
-## Step 3 · Extension · a workflow in one request (optional)
+## Step 4 · Sneak peek — where skills live
+
+A 30-second tour, worth it: click "Customize" in the left sidebar, then "Skills". This is where skills live — they can see the built-in document skills listed there, toggle skills individually, and this is where their OWN skills will appear. Plant the idea: anything the practice does the same way every time (handout format, email style, SOP layout) can become a skill on this page. That is the power: write it down once, Claude does it your way every time, in any chat.
+
+## Step 5 · Extension · a workflow in one request (optional)
 
 One request, three jobs, in order: (1) a 4-week social media calendar, 3 posts/week, mixing patient education, practice updates, seasonal wellness — no patient stories, real or fictional; (2) full text of week 1's three posts in their voice; (3) the whole calendar as a formatted Excel file, one row per post (date, platform, topic, full text, status). Name the lesson: that chain is a workflow — in Phase 5 they hand a brief like this to Cowork and supervise instead of typing.
+
+## Step 6 · Extension · make your OWN skill (power users, optional)
+
+The pattern: ask Claude to build the skill, then upload it where skills live.
+1. In this chat (file creation on), have them send this ask, with their voice guide pasted in: "Use your skill-creator to build me a custom skill called 'practice-voice' that makes every patient-facing draft (handout, email, social post, website text) follow the practice voice guide below. Write the skill description so Claude knows exactly when to invoke it. Ask me any questions you need, then give me the finished skill as a ZIP file I can upload, with the skill folder at the ZIP's root." (Give it as ONE copy box with their voice guide included.)
+2. Download the ZIP Claude produces.
+3. Upload it: "Customize" in the left sidebar → "Skills" → the "+" button → "+ Create skill" → "Upload a skill" → upload the ZIP. (If the create-skill menu looks different, the upload route still works.)
+4. Test it: ask for a short patient-education paragraph in a brand-new PLAIN chat (outside the project) — their voice should show up with no Project at all. That is the difference: the Project carries their voice inside its walls; a skill carries it everywhere.
 
 ## Completion checkpoint
 
@@ -329,6 +351,7 @@ A real .docx and .pdf downloaded and open.
 
 ## Review before moving on
 
+- A skill = one task written down once, done your way every time (the laminated SOP card). Built-in skills fire automatically; skills live at Customize → Skills.
 - One toggle gates all file-making: Settings → Capabilities → "Code execution and file creation."
 - Claude produces real finished files — Word, PDF, Excel, PowerPoint — not just text to copy.
 - A workflow = steps chained into ONE request. There is no "Workflows" button in Claude; the chain IS the workflow.
@@ -341,6 +364,8 @@ Then: "Phase 4 complete — the last phase runs in the Claude DESKTOP app. Open 
 - Chat text instead of files → the capabilities toggle is off; flip it, then "Now produce the actual files."
 - Only one file arrives → "Now create the second file, the waiting-room PDF." No restart needed.
 - .docx won't open → re-download; opens in Word, Pages, or Google Docs.
+- Custom skill ZIP rejected on upload → the skill folder is nested inside another folder; say "Rebuild the ZIP so the skill folder itself is the root of the ZIP," then upload the new one.
+- Custom skill never fires → vague skill description; have Claude rewrite the description to name the exact tasks (handouts, patient emails, social posts).
 
 ---
 
@@ -359,7 +384,7 @@ Plan-level fact to state plainly once: no plan in this room has HIPAA/BAA covera
 
 ## Step 2 · The brief
 
-If this kit folder is connected, Cowork can read the kit files directly. Otherwise they paste this brief (voice guide inserted where marked):
+If this kit folder is connected, Cowork can read the kit files directly. Otherwise they paste this brief (voice guide inserted where marked). To grab their voice guide: open claude.ai in the browser → Projects → "My Practice HQ" → the Instructions section → select all of that text and copy it.
 
 ---
 You are helping the front office of my healthcare practice get ready for the week. Build me a "Monday Morning Pack" as three organized files saved in my connected "Claude Workshop" folder. Everything in this brief is fictional or business content; there is no real patient data in this task.
