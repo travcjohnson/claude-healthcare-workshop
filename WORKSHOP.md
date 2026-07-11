@@ -320,6 +320,10 @@ One Claude-created artifact visible inside a real external tool (or the fallback
 - Gmail can search, read, and DRAFT — it can never send. You always stay the sender.
 - Never connect an account that contains patient data.
 
+## The bigger lesson (say this before the handoff — 30 seconds)
+
+Zoom out with them: today was one key, one cabinet — but connectors number in the hundreds, across the whole business: accounting, spreadsheets, presentations, scheduling, design, CRMs, and the SaaS tools they already pay for. The chat box becomes the front door to all of it. That is the real shift this hour points at: less time executing inside each tool, more time directing the work from one place — out of the execution loop, into the orchestration role. Everything they connect from here on compounds: each key added makes every future request more capable. Keep that picture in mind going into the next phase.
+
 Then: "Phase 3 complete — open a NEW chat inside your My Practice HQ project and type /phase4." Also give them the fallback in ONE copy box in case they start outside the project: https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md   /phase4
 
 ## If it goes wrong
