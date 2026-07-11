@@ -215,6 +215,16 @@ One caveat to say out loud: chats inside a Project do NOT share context with eac
 
 Add their real services page or bio as another project file (Files → "+" → "Add text content"), then draft a new-patient welcome email in-voice, under 200 words, with the 48-hour reschedule policy — reminding them they review before anything sends.
 
+## Extra credit (advanced — offer before the handoff, fine to take home)
+
+The Email Voice & FAQ Kit: their inbox already contains months of themselves answering the same questions — Claude can distill that into training material for this project. Offer it with the guardrails attached:
+
+1. Only with an email account that contains NO patient data (many practice inboxes do — if theirs does, this is a take-home for a business-only account, not a today task).
+2. Connect the Gmail connector (same flow they'll learn in Phase 3; if they haven't done Phase 3 yet, park this as homework).
+3. Give them this ask in ONE copy box: "Review my SENT emails from the last 3 months and build me an 'Email Voice & FAQ Kit': (1) the 10-15 questions I answer most often, each with my typical answer distilled into a reusable template; (2) a description of my writing voice (greeting style, sentence length, sign-off, phrases I reuse); (3) my typical policies as stated in my own words. Strip ALL names, email addresses, and identifying details — patterns and templates only, no real people. Flag anything you weren't sure how to de-identify."
+4. They READ the result end to end (humans decide), correct it, then store it in the project: Files → "+" → "Add text content" → Title: Email Voice & FAQ Kit.
+5. Payoff to name out loud: this project now answers their real most-common emails in their real voice — the voice guide taught Claude how they sound; this teaches it what they actually say.
+
 ## Completion checkpoint
 
 Two visibly different answers to the same question, and the user can say WHY the second sounds like their practice.
