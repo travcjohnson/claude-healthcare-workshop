@@ -341,13 +341,22 @@ A 30-second tour, worth it: click "Customize" in the left sidebar, then "Skills"
 
 One request, three jobs, in order: (1) a 4-week social media calendar, 3 posts/week, mixing patient education, practice updates, seasonal wellness — no patient stories, real or fictional; (2) full text of week 1's three posts in their voice; (3) the whole calendar as a formatted Excel file, one row per post (date, platform, topic, full text, status). Name the lesson: that chain is a workflow — in Phase 5 they hand a brief like this to Cowork and supervise instead of typing.
 
-## Step 7 · Extension · make your OWN skill (power users, optional)
+## Step 7 · Extension · make your OWN skill (power users, optional) — pick a door
 
-The pattern: ask Claude to build the skill, then upload it where skills live.
-1. In this chat (file creation on), have them send this ask, with their voice guide pasted in: "Use your skill-creator to build me a custom skill called 'practice-voice' that makes every patient-facing draft (handout, email, social post, website text) follow the practice voice guide below. Write the skill description so Claude knows exactly when to invoke it. Ask me any questions you need, then give me the finished skill as a ZIP file I can upload, with the skill folder at the ZIP's root." (Give it as ONE copy box with their voice guide included.)
-2. Download the ZIP Claude produces.
-3. Upload it: "Customize" in the left sidebar → "Skills" → the "+" button → "+ Create skill" → "Upload a skill" → upload the ZIP. (If the create-skill menu looks different, the upload route still works.)
-4. Test it: ask for a short patient-education paragraph in a brand-new PLAIN chat (outside the project) — their voice should show up with no Project at all. That is the difference: the Project carries their voice inside its walls; a skill carries it everywhere.
+First ask ONE question: "Are you a provider or clinical staff who writes visit notes, or are you on the business side (owner, manager, front desk, marketing)?" Route by the answer. The pattern is the same behind both doors: ask Claude to build the skill, then upload it where skills live.
+
+**Door A · providers: the "patient-note" SOAP skill.** Explain in one line: a SOAP note (Subjective / Objective / Assessment / Plan) is the standard visit-note structure, and this skill makes Claude impose it on any de-identified or fictional dictation, every time.
+1. Have them send this ask as ONE copy box: "Use your skill-creator to build me a custom skill called 'patient-note' that turns any raw visit dictation or transcript I paste into a structured SOAP note (Subjective / Objective / Assessment / Plan), plus an 'Items to verify' list for anything ambiguous instead of guessing. Rules the skill must always follow: keep every fact exactly as stated, invent nothing, add no new medical advice, and end every note with a reminder that a clinician must review before it enters the chart. Write the skill description so Claude knows to invoke it whenever I paste a dictation, transcript, or visit notes. Ask me any questions you need, then give me the finished skill as a ZIP file I can upload, with the skill folder at the ZIP's root."
+2. Test material is the long FICTIONAL Linda dictation on Card E of their packet (also on the Prompt Pack). Remind them of the office rule on the back of that card: real notes get de-identified in a BAA-covered tool FIRST (for example Doximity GPT, free to verified clinicians); only de-identified text ever reaches Claude.
+
+**Door B · business side: the "brand-guide" skill.** Claude reads their real website, drafts a BRAND.md they correct, then every future creative task comes out brand-aligned.
+1. Have them send this ask as ONE copy box, with their real URL: "First, read my practice website at [YOUR URL] and draft a one-page BRAND.md brand guide: color palette with hex codes, fonts (or closest web equivalents), 3 to 5 tone words, imagery do's and don'ts (for a healthcare practice: no fear imagery, no needles), and logo usage notes. Show me the draft and let me correct anything before we continue. Then use your skill-creator to build me a custom skill called 'brand-guide' that applies this corrected BRAND.md to every creative and visual task: social posts, Canva designs, flyers, slide decks, and formatted documents. Write the skill description so Claude invokes it for any design or visual content request. Give me the finished skill as a ZIP file I can upload, with the skill folder at the ZIP's root."
+2. Make them actually CORRECT the BRAND.md draft before Claude wraps it — their brand, their call. No website? Describe colors, fonts, and vibe in plain words instead.
+
+**Both doors finish the same way:**
+1. Download the ZIP Claude produces.
+2. Upload it: "Customize" in the left sidebar → "Skills" → the "+" button → "+ Create skill" → "Upload a skill" → upload the ZIP. (If the create-skill menu looks different, the upload route still works.)
+3. Test it in a brand-new PLAIN chat (outside the project): Door A pastes the Card E dictation; Door B asks for a quick social post. The skill should fire with no Project at all. That is the difference: the Project carries their setup inside its walls; a skill carries it everywhere.
 
 ## Completion checkpoint
 
