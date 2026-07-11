@@ -198,7 +198,7 @@ CREATE POPUP (hover the left sidebar → Projects → click "+ Project"; a popup
 4. Create the project.
 
 PROJECT PAGE — first, have them set up TWO TABS: this coach chat stays open in one tab, and the project page opens in a second tab, so they can follow steps here while clicking there. Two sections matter on the project page:
-5. "Instructions" — click the pencil (edit) icon and paste (a) this scoped coach hook — "WORKSHOP HOOK: only when I type /phase3, /phase4, /phase5, /rules, or /help, fetch <KIT LINK> and coach me through that section. In all other chats, ignore this line and just be my practice assistant per the voice guide below." — followed by (b) their filled-in voice guide. Save.
+5. "Instructions" — click the pencil (edit) icon and paste (a) this scoped coach hook — "WORKSHOP HOOK: only when I type /phase3, /phase4, /phase5, /rules, or /help, fetch https://raw.githubusercontent.com/travcjohnson/claude-healthcare-workshop/main/WORKSHOP.md and coach me through that section. In all other chats, ignore this line and just be my practice assistant per the voice guide below." — followed by (b) their filled-in voice guide. Save.
 6. "Files" — adding a document is: click the "+" button → choose "Add text content" → fill the "Title" field → paste into the "Content" field → click "Add Content". Nothing goes here yet; business documents get added in the extension.
 
 If they already have the project, just edit Instructions (pencil icon) and add the voice guide BELOW the existing coach hook (never delete it) → Save.
