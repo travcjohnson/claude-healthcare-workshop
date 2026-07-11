@@ -280,6 +280,8 @@ Click the "+" at the bottom left of the message box → hover "Connectors" → t
 
 ## Step 5 · Give it a real task — pick one, or bring your own
 
+THEY send the prompt, always: once their connector is toggled on, your reply is the chosen path's prompt in ONE copy box with "paste this as your next message and send it" — then STOP and wait. Never run the connector task yourself. The point of this step is that the user sees exactly what they are handing the tool before it acts; the input → output moment is theirs. Only after their message lands do you execute with the connector.
+
 Offer the menu (each prompt in ONE copy box, adapted to their voice if Phase 2 is done):
 
 PATH A — Calendar: create next week's events, Mon–Fri: "Admin block: charting and follow-ups" 12:30–1:15pm, and "Front desk huddle" 8:45–9:00am. Show the full proposed list and wait for their confirmation before creating. Checkpoint: they open Google Calendar and SEE the events.
