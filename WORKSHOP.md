@@ -174,10 +174,19 @@ Show them the template from the Practice Voice Guide section of this document an
 
 ## Step 3 · Build the Project and install the voice
 
-If they don't have a Project yet (they've been pasting the kit link into plain chats), guide them now: hover the left sidebar → Projects → "+ New Project" → name it "My Practice HQ". Then one install:
-1. Instructions: click "Set project instructions" and paste (a) this scoped coach hook — "WORKSHOP HOOK: only when I type /phase3, /phase4, /phase5, /rules, or /help, fetch <KIT LINK> and coach me through that section. In all other chats, ignore this line and just be my practice assistant per the voice guide below." — followed by (b) their filled-in voice guide. Save.
+If they don't have a Project yet (they've been pasting the kit link into plain chats), guide them field by field through the create dialog, then the project page:
 
-If they already loaded the kit as a Project, just add the voice guide BELOW the existing coach instructions (never delete the coach) → Save.
+CREATE DIALOG (hover the left sidebar → Projects → create a new project):
+1. "Name your project" → type: My Practice HQ
+2. "What are you trying to achieve?" → type a one-line goal, e.g.: Run my practice's front-office busywork in my voice — handouts, emails, posts, and drafts I review before use.
+3. Visibility (if shown) → choose Private.
+4. Create the project.
+
+PROJECT PAGE (two sections matter):
+5. "Instructions" — click the pencil (edit) icon and paste (a) this scoped coach hook — "WORKSHOP HOOK: only when I type /phase3, /phase4, /phase5, /rules, or /help, fetch <KIT LINK> and coach me through that section. In all other chats, ignore this line and just be my practice assistant per the voice guide below." — followed by (b) their filled-in voice guide. Save.
+6. "Files" — the "+" button (Upload from device / Add text content). Nothing goes here yet; business documents get added in the extension.
+
+If they already have the project, just edit Instructions (pencil icon) and add the voice guide BELOW the existing coach hook (never delete it) → Save.
 
 Teach the boundary in two lines: instructions = how to behave in every chat here; Files = standing reference documents Claude can draw on in EVERY chat here — so Files are for business content only (services, policies, bios). Patient-shaped content, even fictional Linda, is pasted per prompt and never stored in Files — that habit follows them to the office. From now on they type /phase3, /phase4, /phase5 inside this Project with no link needed.
 
@@ -205,7 +214,7 @@ Then: "Phase 2 complete — open a NEW chat in this project and type /phase3."
 ## If it goes wrong
 
 - After sounds like before → voice guide too generic; add two things only their practice would say.
-- Coach commands stop working after they edit instructions → they overwrote COACH.md's text; have them re-paste it above their voice guide.
+- Coach commands stop working after they edit instructions → the WORKSHOP HOOK line got deleted; have them re-paste it above their voice guide (Instructions → pencil icon).
 
 ---
 
