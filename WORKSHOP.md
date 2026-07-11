@@ -221,21 +221,38 @@ Then: "Phase 2 complete — open a NEW chat in this project and type /phase3."
 
 # /phase3 · Connect one tool (16 min)
 
-Coach: the skill is granting Claude a key to ONE tool and landing real output inside it. You cannot click for them — guide, then ask what they see. Say the three warnings BEFORE anything else:
+Goal of this phase — say it out loud at the start: discover the power of connectors. This is where Claude stops being a chat window and starts landing work inside the tools the practice already runs on.
+
+Coach: you cannot click for them — give ONE sub-step, ask what they see on screen, then give the next. Say the three warnings BEFORE anything else:
 
 1. Your own laptop, never a shared screen.
 2. Never connect an account that contains patient data (patient spreadsheets, patient email, EHR exports in Drive = do not connect).
 3. Use a PERSONAL Google account; IT-managed practice accounts often block this and it cannot be fixed today.
 
-## Step 1 · Pick a path
+## Step 1 · Pick your tool
 
 Ask which fits them: (A) Google Calendar if scheduling is their pain, (B) Google Drive for the simplest win, (C) Canva if marketing is their lane. Nervous? Recommend Drive.
 
-## Step 2 · Connect (same flow for all paths)
+## Step 2 · Find and add the connector
 
-Walk them through: Customize (left sidebar) → Connectors tab → "+" → Browse connectors → find their tool → Connect. On Google's consent screen: pick the PERSONAL account, read what's listed, approve. Explain OAuth in one line: a release form naming exactly what is shared, signed by them, revocable anytime at myaccount.google.com/connections. Then: new considerations aside, have them toggle the connector ON for this conversation via the "+" menu in the message box — connectors are per-conversation.
+Click "Customize" in the left sidebar → open the "Connectors" tab → click the "+" button → "Browse connectors" → find their tool ("Google Calendar", "Google Drive", or "Canva") → click it and read the short description of what it can do → click "Connect". (Alternative from any chat: click the "+" at the bottom left of the message box, hover "Connectors", choose "Manage connectors".) Confirm what they see before moving on.
 
-## Step 3 · Run their path (use these prompts, adapted to their voice if Phase 2 is done)
+## Step 3 · Approve access (the OAuth screen)
+
+Prepare them BEFORE they click approve — this is the trust moment:
+- OAuth is a release form: it names exactly what is shared, it is signed by them, and they can revoke it anytime.
+- Google asks WHICH account first: pick the personal one — never a practice-managed account, never one containing patient data.
+- Then Google lists what Claude may access for that ONE service. Nothing is shared until they approve. (Canva instead asks them to sign in with their own Canva account.)
+- The key stays theirs: revoke anytime at myaccount.google.com/connections, or disconnect at Customize → Connectors.
+After approving, they should land back in Claude with the connector showing as connected. Confirm they see that.
+
+## Step 4 · Turn it on for THIS chat
+
+Click the "+" at the bottom left of the message box → hover "Connectors" → toggle their tool ON. Teach the rule: connectors are per-conversation — the key only comes out of the drawer when you take it out, and each new chat starts with the drawer closed.
+
+## Step 5 · Give it a real task — pick one, or bring your own
+
+Offer the menu (each prompt in ONE copy box, adapted to their voice if Phase 2 is done):
 
 PATH A — Calendar: create next week's events, Mon–Fri: "Admin block: charting and follow-ups" 12:30–1:15pm, and "Front desk huddle" 8:45–9:00am. Show the full proposed list and wait for their confirmation before creating. Checkpoint: they open Google Calendar and SEE the events.
 
@@ -243,7 +260,9 @@ PATH B — Drive: build the fridge handout from Block A of the Linda Alvarez Pac
 
 PATH C — Canva: an Instagram post: "Flu season hours start November 1. Now open Saturdays 9am to 1pm through February. Book early." Calm, warm, readable at a glance, no needles, no fear imagery. Offer one plain-language revision. Checkpoint: design renders in the chat.
 
-## Step 4 · Extension (optional) · Gmail draft
+OR THEIR OWN TASK: if they have real busywork in mind, build the prompt WITH them using the four-part pattern (Role, Context, Task, Format). Guardrails for a custom task: it must WRITE new business content into the tool (create events, save a new doc, draft an email, make a design) — never read or search their existing data today, and nothing patient-shaped goes in. Always include the line "show me what you plan to create and wait for my confirmation" so they stay the approver. Checkpoint is the same: a Claude-made artifact visible inside their real tool.
+
+## Step 6 · Extension (optional) · Gmail draft
 
 Same connect flow for Gmail. Then create a draft to their OWN email, subject "Supplement reorder reminder - week 7": a warm template reminder that D3/K2 and magnesium were 60-day supplies, placeholder [Patient first name], no real patient info. Teach the design: Gmail can search, read, and draft — it can NEVER send. They find it unsent in their Drafts folder.
 
