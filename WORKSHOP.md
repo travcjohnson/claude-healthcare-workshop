@@ -260,6 +260,13 @@ PATH B — Drive: build the fridge handout from Block A of the Linda Alvarez Pac
 
 PATH C — Canva: an Instagram post: "Flu season hours start November 1. Now open Saturdays 9am to 1pm through February. Book early." Calm, warm, readable at a glance, no needles, no fear imagery. Offer one plain-language revision. Checkpoint: design renders in the chat.
 
+PATH C OPTIONAL JOURNEY — build a Brand Guide so Canva designs come out brand-aligned. Offer this after their first design renders:
+1. Collect their brand, one ask at a time: upload their logo image into this chat (drag it in or use the "+" menu), paste their website address or homepage text, and describe in their own words: main colors (exact hex codes if known), fonts if known, and three words for the vibe (e.g., "calm, credible, warm"). Whatever they don't know, read it off the logo and website for them.
+2. Draft a one-page BRAND GUIDE from what they gave you: practice name and tagline, color palette (with hex codes), fonts (or nearest common equivalents), tone words, imagery guidance (what to show, what to avoid — for healthcare: no needles, no fear imagery, no stock-photo clichés), and logo usage notes. Show it as ONE copy box.
+3. They review and correct it — their brand, their call. Claude drafts, humans decide.
+4. Add it to the project so every future chat can use it: project page (their second tab) → "Files" → "+" → "Add text content" → Title: Brand Guide → paste into "Content" → click "Add Content". This is exactly what Files is for: standing business reference.
+5. Re-run the design brand-aligned: "Using Canva, and following the Brand Guide in this project's files, redo the flu season hours post." Checkpoint: the new design visibly uses their colors and tone — that contrast IS the lesson.
+
 OR THEIR OWN TASK: if they have real busywork in mind, build the prompt WITH them using the four-part pattern (Role, Context, Task, Format). Guardrails for a custom task: it must WRITE new business content into the tool (create events, save a new doc, draft an email, make a design) — never read or search their existing data today, and nothing patient-shaped goes in. Always include the line "show me what you plan to create and wait for my confirmation" so they stay the approver. Checkpoint is the same: a Claude-made artifact visible inside their real tool.
 
 ## Step 6 · Extension (optional) · Gmail draft
