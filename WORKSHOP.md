@@ -185,7 +185,7 @@ If they don't have a Project yet (they've been pasting the kit link into plain c
 
 CREATE POPUP (hover the left sidebar → Projects → click "+ Project"; a popup appears with these fields):
 1. "Name your project" → type: My Practice HQ
-2. "What are you trying to achieve?" → type this goal: A place to create copy in our practice's voice. Teach the field in one line: the goal tells Claude (and anyone on your team) what this project is FOR, so every chat inside it starts pointed at that purpose.
+2. "What are you trying to achieve?" → type this goal: A place to create copy in our practice's voice. Teach the field in one line: the goal keeps you and your team pointed at what this project is FOR — per Anthropic's docs Claude itself does not read the name or goal; your Instructions (next step) are what steer every chat.
 3. Visibility (if shown) → choose Private.
 4. Create the project.
 
